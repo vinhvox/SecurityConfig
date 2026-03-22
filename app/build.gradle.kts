@@ -1,10 +1,14 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
 }
 
 apply(from = "generateSecureConfig.gradle.kts")
-
+val secretProps = Properties().apply {
+    rootProject.file("secret.properties").inputStream().use { load(it) }
+}
 android {
     namespace = "com.vio.myapplication"
     compileSdk = 36
@@ -21,6 +25,10 @@ android {
         ndk {
             abiFilters += listOf("armeabi-v7a", "arm64-v8a") // rất quan trọng!
         }
+
+        manifestPlaceholders["ad_app_id"] = secretProps.getProperty("ad_app_id", "")
+        manifestPlaceholders["facebook_app_id"] = secretProps.getProperty("facebook_app_id", "")
+        manifestPlaceholders["facebook_client_token"] = secretProps.getProperty("facebook_client_token", "")
 
         externalNativeBuild {
             cmake {

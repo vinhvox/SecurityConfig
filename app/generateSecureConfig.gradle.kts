@@ -1,7 +1,7 @@
 import java.util.Properties
 
 val generateSecureConfig by tasks.registering {
-    val inputFile = file("secret.properties")
+    val inputFile = rootProject.file("secret.properties")
     val cppOutput = file("src/main/cpp/secure-lib.cpp")
     val ktOutput = file("src/main/java/com/yourpackage/config/SecureConfig.kt")
     val packageName = "com.yourpackage.config" // 🔁 đổi thành package thực tế

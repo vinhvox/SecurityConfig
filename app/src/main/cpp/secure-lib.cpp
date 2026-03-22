@@ -180,7 +180,7 @@ Java_com_yourpackage_config_SecureConfig_getNativeLanguageS2(JNIEnv *env, jobjec
 extern "C"
 JNIEXPORT jstring JNICALL
 Java_com_yourpackage_config_SecureConfig_getVinhvox(JNIEnv *env, jobject) {
-    const char* encrypted = "\x2e\x29\x3c\x30\x30";
+    const char* encrypted = "\x2c\x33\x34\x32\x2c\x35\x22";
     std::string decrypted;
     for (size_t i = 0; i < strlen(encrypted); ++i) {
         decrypted += encrypted[i] ^ 0x5A;
