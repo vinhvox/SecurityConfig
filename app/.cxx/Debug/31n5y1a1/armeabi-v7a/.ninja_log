@@ -1,0 +1,5 @@
+# ninja log v5
+0	46	1753347126734318372	CMakeFiles/secure.dir/secure-lib.cpp.o	f8c4ac9e7477efd6
+47	87	1753347126773976958	/Users/vinhvox/Documents/MyApplication3/app/build/intermediates/cxx/Debug/31n5y1a1/obj/armeabi-v7a/libsecure.so	12ac339b5f224260
+0	665	1753350872576046518	CMakeFiles/secure.dir/secure-lib.cpp.o	f8c4ac9e7477efd6
+666	1251	1753350873145166282	/Users/vinhvox/Documents/MyApplication3/app/build/intermediates/cxx/Debug/31n5y1a1/obj/armeabi-v7a/libsecure.so	12ac339b5f224260
