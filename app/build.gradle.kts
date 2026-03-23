@@ -23,6 +23,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         ndk {
+            ndkVersion = "29.0.14206865"
             abiFilters += listOf("armeabi-v7a", "arm64-v8a") // rất quan trọng!
         }
 

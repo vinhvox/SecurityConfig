@@ -1,7 +1,3 @@
 # ninja log v5
-0	642	1774192867660483212	CMakeFiles/secure.dir/secure-lib.cpp.o	bf652927a703ba21
-644	790	1774192867809944682	/Users/vinhvox/Documents/IceBear/SecurityConfig/app/build/intermediates/cxx/Debug/31n5y1a1/obj/arm64-v8a/libsecure.so	820210a9578b7ea3
-2	593	1774193113812096656	CMakeFiles/secure.dir/secure-lib.cpp.o	bf652927a703ba21
-593	722	1774193113942862850	/Users/vinhvox/Documents/IceBear/SecurityConfig/app/build/intermediates/cxx/Debug/31n5y1a1/obj/arm64-v8a/libsecure.so	820210a9578b7ea3
-2	533	1774193135194026916	CMakeFiles/secure.dir/secure-lib.cpp.o	bf652927a703ba21
-533	699	1774193135362165289	/Users/vinhvox/Documents/IceBear/SecurityConfig/app/build/intermediates/cxx/Debug/31n5y1a1/obj/arm64-v8a/libsecure.so	820210a9578b7ea3
+0	607	1774239833082723956	CMakeFiles/secure.dir/secure-lib.cpp.o	bf652927a703ba21
+609	730	1774239833206694322	/Users/vinhvox/Documents/IceBear/SecurityConfig/app/build/intermediates/cxx/Debug/31n5y1a1/obj/arm64-v8a/libsecure.so	820210a9578b7ea3
